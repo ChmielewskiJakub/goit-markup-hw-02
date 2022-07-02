@@ -1,25 +1,30 @@
 /* global */
-.body {text-decoration: none;
-  list-style: none;}
+.body {
+  text-decoration: none;
+  list-style: none;
+}
 ul {
   text-decoration: none;
-    list-style: none;}
+  list-style: none;
+}
 a {
   text-decoration: none;
   list-style: none;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 100%;
-    line-height: 100%;
-    letter-spacing: 0.03em;}
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+}
 a:hover {
-      color: #2196F3;}
+  color: #2196f3;
+}
 .button {
   position: absolute;
   padding: 6px 22px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   font-weight: 500;
   line-height: 162.5%;
   /* identical to box height, or 188% */
@@ -30,25 +35,29 @@ a:hover {
   color: #212121;
 
   border-radius: 4px;
-  border-color: #F5F4FA;}
+  border-color: #f5f4fa;
+}
 button:hover {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  background-color: #2196F3;
-  border-color: #2196F3;
-  color: #FFFFFF;
-  cursor: pointer;}
+  background-color: #2196f3;
+  border-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
 p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 100%;
   line-height: 100%;
-  letter-spacing: 0.03em;}
+  letter-spacing: 0.03em;
+}
 h2 {
-    font-family: 'Roboto';
-    font-style: normal;}
-  /* header */
+  font-family: "Roboto";
+  font-style: normal;
+}
+/* header */
 .header {
   position: absolute;
   width: 1600px;
@@ -56,7 +65,8 @@ h2 {
   left: 0px;
   top: 0px;
 
-  background: #FFFFFF;}
+  background: #ffffff;
+}
 .webstudio-header {
   position: absolute;
   width: 145px;
@@ -64,17 +74,19 @@ h2 {
   left: 215px;
   top: 24px;
 
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 87.5%;
   line-height: 100%;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196F3;}
-    .webstudio-header > span {
-      color: #000000;
-      font-family: 'Roboto';}
+  color: #2196f3;
+}
+.webstudio-header > span {
+  color: #000000;
+  font-family: "Roboto";
+}
 .agencja {
   position: absolute;
   width: 53px;
@@ -87,20 +99,22 @@ h2 {
   line-height: 100%;
   letter-spacing: 0.02em;
 
-  color: #212121;}
+  color: #212121;
+}
 .portfolio {
   position: absolute;
-    width: 58px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-  
-    font-weight: 500;
-    font-size: 87.5%;
-    line-height: 100%;
-    letter-spacing: 0.02em;
-  
-    color: #212121;}
+  width: 58px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 87.5%;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
 .kontakt-head {
   position: absolute;
   width: 51px;
@@ -112,7 +126,8 @@ h2 {
   font-size: 87.5%;
   letter-spacing: 0.02em;
 
-  color: #212121;}
+  color: #212121;
+}
 .mail-head {
   position: absolute;
   width: 135px;
@@ -125,7 +140,8 @@ h2 {
   line-height: 100%;
   letter-spacing: 0.02em;
 
-  color: #757575;}
+  color: #757575;
+}
 .tel-head {
   position: absolute;
   width: 110px;
@@ -138,24 +154,26 @@ h2 {
   line-height: 100%;
   letter-spacing: 0.02em;
 
-  color: #757575;}
+  color: #757575;
+}
 /* footer */
 #kontakt {
-  position:absolute;
+  position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
   /*top: 2097px;*/
 
-  background: #2F303A;}
+  background: #2f303a;
+}
 .webstudio-footer {
   position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 60px;
-/*2157*/
-  font-family: 'Raleway';
+  /*2157*/
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 150%;
@@ -163,10 +181,12 @@ h2 {
   /* identical to box height */
   letter-spacing: 0.03em;
 
-  color: #2196F3;}
-    .webstudio-footer > span {
-      color: #FFFFFF;
-      font-family: 'Roboto'}
+  color: #2196f3;
+}
+.webstudio-footer > span {
+  color: #ffffff;
+  font-family: "Roboto";
+}
 .aleje-footer {
   position: absolute;
   width: 246px;
@@ -178,7 +198,8 @@ h2 {
   font-size: 87.5%;
   line-height: 150%;
 
-  color: #FFFFFF;}
+  color: #ffffff;
+}
 .mail-footer {
   position: absolute;
   width: 231px;
@@ -190,8 +211,8 @@ h2 {
   font-size: 87.5%;
   line-height: 150%;
 
-
-  color: rgba(255, 255, 255, 0.6);}
+  color: rgba(255, 255, 255, 0.6);
+}
 .tel-footer {
   position: absolute;
   width: 231px;
@@ -203,13 +224,17 @@ h2 {
   font-size: 87.5%;
   line-height: 150%;
 
-  color: rgba(255, 255, 255, 0.6);}
+  color: rgba(255, 255, 255, 0.6);
+}
 
 .footer-portfolio {
-  position: absolute; top: 200%;}  
+  position: absolute;
+  top: 200%;
+}
 .footer-index {
   position: absolute;
-  top: 255%;}
+  top: 255%;
+}
 /* index */
 /* baner */
 #baner {
@@ -219,7 +244,8 @@ h2 {
   left: 0px;
   top: 80px;
 
-  background: #2F303A;}
+  background: #2f303a;
+}
 .efektywne {
   position: absolute;
   width: 696px;
@@ -234,14 +260,15 @@ h2 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #FFFFFF;}
+  color: #ffffff;
+}
 .zamow {
-position: absolute;
+  position: absolute;
   padding: 10px 42px;
   left: 700px;
   top: 58%;
 
-background: #2196F3;
+  background: #2196f3;
 
   font-weight: 700;
   font-size: 100%;
@@ -252,8 +279,9 @@ background: #2196F3;
   letter-spacing: 0.06em;
   color: #212121;
 
-border-radius: 4px;
-border-color: #2196F3;}
+  border-radius: 4px;
+  border-color: #2196f3;
+}
 /* lorem */
 .loremhead {
   position: absolute;
@@ -266,7 +294,8 @@ border-color: #2196F3;}
   line-height: 100%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;}
+  color: #212121;
+}
 .loremtext {
   position: absolute;
   width: 270px;
@@ -274,20 +303,25 @@ border-color: #2196F3;}
   top: 800px;
   font-size: 87.5%;
   line-height: 150%;
-  color: #757575;}
+  color: #757575;
+}
 .loremipsum-li-1 {
   position: absolute;
-  left: 215px;}
+  left: 215px;
+}
 .loremipsum-li-2 {
   position: absolute;
-  left: 515px;}
+  left: 515px;
+}
 .loremipsum-li-3 {
   position: absolute;
-  left: 815px;}
+  left: 815px;
+}
 .loremipsum-li-4 {
   position: absolute;
-  left: 1115px;}
-  /* czym się zajmujemy */
+  left: 1115px;
+}
+/* czym się zajmujemy */
 .czym-sie-zajmujemy {
   position: absolute;
   /*width: 352px;*/
@@ -301,26 +335,30 @@ border-color: #2196F3;}
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;}
+  color: #212121;
+}
 .images1 {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 1061px;
-  mix-blend-mode: normal;}
+  mix-blend-mode: normal;
+}
 .images2 {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
-  top: 1061px;}
+  top: 1061px;
+}
 .images3 {
   position: absolute;
   width: 370px;
   height: 294px;
   left: 1015px;
-  top: 1061px;}
+  top: 1061px;
+}
 /* nasz zespół */
 #naszzespół {
   position: absolute;
@@ -329,48 +367,57 @@ border-color: #2196F3;}
   left: 0px;
   top: 1449px;
 
-  background: #F5F4FA;}
-  #naszzespół > ul > li {
+  background: #f5f4fa;
+}
+#naszzespół > ul > li {
   position: absolute;
   width: 270px;
   height: 368px;
   top: 186px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;}
-.nasz-zespol{
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.nasz-zespol {
   position: absolute;
-    /*width: 210px;*/
-    height: 42px;
-    left: 695px;
-    top: 52px;
-  
-    font-weight: 700;
-    font-size: 225%;
-    line-height: 262.5%;
-    text-align: center;
-    letter-spacing: 0.03em;
-  
-    color: #212121;}
+  /*width: 210px;*/
+  height: 42px;
+  left: 695px;
+  top: 52px;
+
+  font-weight: 700;
+  font-size: 225%;
+  line-height: 262.5%;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
 .nasz-zespol-li-1 {
   position: absolute;
-  left: 215px;}
+  left: 215px;
+}
 .nasz-zespol-li-2 {
   position: absolute;
-  left: 515px;}
+  left: 515px;
+}
 .nasz-zespol-li-3 {
   position: absolute;
-  left: 815px;}
+  left: 815px;
+}
 .nasz-zespol-li-4 {
   position: absolute;
-  left: 1115px;}
+  left: 1115px;
+}
 .JohnDoe-img {
   position: absolute;
   width: 270px;
   height: 260px;
   left: 0px;
   top: 0px;
-  border-radius: 0px;}
+  border-radius: 0px;
+}
 .JohnDoe {
   position: absolute;
   width: 72px;
@@ -383,7 +430,8 @@ border-color: #2196F3;}
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;}
+  color: #212121;
+}
 .johndoe-profesion {
   position: absolute;
   width: 160px;
@@ -395,43 +443,50 @@ border-color: #2196F3;}
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;}
+  color: #757575;
+}
 
 /* Portfolio page*/
 .buton-portfolio-1 {
   position: absolute;
   top: 174px;
   left: 510px;
-  font-weight: 500;}
+  font-weight: 500;
+}
 .buton-portfolio-2 {
   position: absolute;
   top: 174px;
   left: 639px;
-  font-weight: 500;}
+  font-weight: 500;
+}
 .buton-portfolio-3 {
   position: absolute;
   top: 174px;
   left: 740px;
-  font-weight: 500;}
+  font-weight: 500;
+}
 .buton-portfolio-4 {
   position: absolute;
   top: 174px;
   left: 862px;
-  font-weight: 500;}
+  font-weight: 500;
+}
 .buton-portfolio-5 {
   position: absolute;
   top: 174px;
   left: 961px;
-  font-weight: 500;}
+  font-weight: 500;
+}
 /*#portfolio-content {}*/
 #portfolio-content > ul > li {
   box-sizing: border-box;
 
   position: absolute;
-  padding-bottom:110px;
+  padding-bottom: 110px;
 
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;}
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
 .portfolio-title {
   position: absolute;
   width: 322px;
@@ -443,53 +498,64 @@ border-color: #2196F3;}
   line-height: 200%;
   letter-spacing: 0.06em;
 
-  color: #212121;}
+  color: #212121;
+}
 .portfolio-tracker {
   position: absolute;
-    width: 322px;
-    height: 30px;
-    left: 24px;
-    top: 336px;
-  
-    line-height: 188%;
-    letter-spacing: 0.03em;
-  
-    color: #757575;}
+  width: 322px;
+  height: 30px;
+  left: 24px;
+  top: 336px;
+
+  line-height: 188%;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 
 .portfolio-content-1 {
   position: absolute;
   left: 215px;
-  top: 262px;}
+  top: 262px;
+}
 .portfolio-content-2 {
   position: absolute;
   left: 615px;
-  top: 262px;}
+  top: 262px;
+}
 .portfolio-content-3 {
   position: absolute;
   left: 1015px;
-  top: 262px;}
+  top: 262px;
+}
 .portfolio-content-4 {
   position: absolute;
   left: 215px;
-  top: 696px;}
+  top: 696px;
+}
 .portfolio-content-5 {
   position: absolute;
   left: 615px;
-  top: 696px;}
+  top: 696px;
+}
 .portfolio-content-6 {
   position: absolute;
   left: 1015px;
-  top: 696px;}
+  top: 696px;
+}
 .portfolio-content-7 {
   position: absolute;
   left: 215px;
-  top: 1130px;} 
+  top: 1130px;
+}
 .portfolio-content-8 {
   position: absolute;
   left: 615px;
-  top: 1130px;} 
+  top: 1130px;
+}
 .portfolio-content-9 {
   position: absolute;
   left: 1015px;
-  top: 1130px;}
+  top: 1130px;
+}
 
