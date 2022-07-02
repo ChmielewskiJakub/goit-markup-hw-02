@@ -1,0 +1,495 @@
+/* global */
+.body {text-decoration: none;
+  list-style: none;}
+ul {
+  text-decoration: none;
+    list-style: none;}
+a {
+  text-decoration: none;
+  list-style: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 100%;
+    letter-spacing: 0.03em;}
+a:hover {
+      color: #2196F3;}
+.button {
+  position: absolute;
+  padding: 6px 22px;
+  background: #F5F4FA;
+  font-weight: 500;
+  line-height: 162.5%;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+
+  border-radius: 4px;
+  border-color: #F5F4FA;}
+button:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: #2196F3;
+  border-color: #2196F3;
+  color: #FFFFFF;
+  cursor: pointer;}
+p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 100%;
+  letter-spacing: 0.03em;}
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;}
+  /* header */
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;}
+.webstudio-header {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 87.5%;
+  line-height: 100%;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196F3;}
+    .webstudio-header > span {
+      color: #000000;
+      font-family: 'Roboto';}
+.agencja {
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 87.5%;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+
+  color: #212121;}
+.portfolio {
+  position: absolute;
+    width: 58px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+  
+    font-weight: 500;
+    font-size: 87.5%;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+  
+    color: #212121;}
+.kontakt-head {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 656px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 87.5%;
+  letter-spacing: 0.02em;
+
+  color: #212121;}
+.mail-head {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 87.5%;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+
+  color: #757575;}
+.tel-head {
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 87.5%;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+
+  color: #757575;}
+/* footer */
+#kontakt {
+  position:absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  /*top: 2097px;*/
+
+  background: #2F303A;}
+.webstudio-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+/*2157*/
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 150%;
+  line-height: 100%;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+
+  color: #2196F3;}
+    .webstudio-footer > span {
+      color: #FFFFFF;
+      font-family: 'Roboto'}
+.aleje-footer {
+  position: absolute;
+  width: 246px;
+  height: 21px;
+  left: 215px;
+  top: 111px;
+
+  font-weight: 400;
+  font-size: 87.5%;
+  line-height: 150%;
+
+  color: #FFFFFF;}
+.mail-footer {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 141px;
+
+  font-weight: 400;
+  font-size: 87.5%;
+  line-height: 150%;
+
+
+  color: rgba(255, 255, 255, 0.6);}
+.tel-footer {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 171px;
+
+  font-weight: 400;
+  font-size: 87.5%;
+  line-height: 150%;
+
+  color: rgba(255, 255, 255, 0.6);}
+
+.footer-portfolio {
+  position: absolute; top: 200%;}  
+.footer-index {
+  position: absolute;
+  top: 255%;}
+/* index */
+/* baner */
+#baner {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2F303A;}
+.efektywne {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 25%;
+
+  font-weight: 900;
+  font-size: 275%;
+  line-height: 171%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;}
+.zamow {
+position: absolute;
+  padding: 10px 42px;
+  left: 700px;
+  top: 58%;
+
+background: #2196F3;
+
+  font-weight: 700;
+  font-size: 100%;
+  line-height: 188%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+
+border-radius: 4px;
+border-color: #2196F3;}
+/* lorem */
+.loremhead {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+  top: 774px;
+
+  font-weight: 700;
+  font-size: 87.5%;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;}
+.loremtext {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  top: 800px;
+  font-size: 87.5%;
+  line-height: 150%;
+  color: #757575;}
+.loremipsum-li-1 {
+  position: absolute;
+  left: 215px;}
+.loremipsum-li-2 {
+  position: absolute;
+  left: 515px;}
+.loremipsum-li-3 {
+  position: absolute;
+  left: 815px;}
+.loremipsum-li-4 {
+  position: absolute;
+  left: 1115px;}
+  /* czym się zajmujemy */
+.czym-sie-zajmujemy {
+  position: absolute;
+  /*width: 352px;*/
+  height: 42px;
+  left: 624px;
+  top: 927px;
+
+  font-weight: 700;
+  font-size: 225%;
+  line-height: 262.5%;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;}
+.images1 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+  mix-blend-mode: normal;}
+.images2 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;}
+.images3 {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;}
+/* nasz zespół */
+#naszzespół {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: #F5F4FA;}
+  #naszzespół > ul > li {
+  position: absolute;
+  width: 270px;
+  height: 368px;
+  top: 186px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;}
+.nasz-zespol{
+  position: absolute;
+    /*width: 210px;*/
+    height: 42px;
+    left: 695px;
+    top: 52px;
+  
+    font-weight: 700;
+    font-size: 225%;
+    line-height: 262.5%;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;}
+.nasz-zespol-li-1 {
+  position: absolute;
+  left: 215px;}
+.nasz-zespol-li-2 {
+  position: absolute;
+  left: 515px;}
+.nasz-zespol-li-3 {
+  position: absolute;
+  left: 815px;}
+.nasz-zespol-li-4 {
+  position: absolute;
+  left: 1115px;}
+.JohnDoe-img {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;}
+.JohnDoe {
+  position: absolute;
+  width: 72px;
+  height: 19px;
+  left: 99px;
+  top: 271px;
+
+  font-weight: 500;
+  line-height: 118.75%;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;}
+.johndoe-profesion {
+  position: absolute;
+  width: 160px;
+  height: 19px;
+  left: 55px;
+  top: 300px;
+
+  line-height: 118.75%;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;}
+
+/* Portfolio page*/
+.buton-portfolio-1 {
+  position: absolute;
+  top: 174px;
+  left: 510px;
+  font-weight: 500;}
+.buton-portfolio-2 {
+  position: absolute;
+  top: 174px;
+  left: 639px;
+  font-weight: 500;}
+.buton-portfolio-3 {
+  position: absolute;
+  top: 174px;
+  left: 740px;
+  font-weight: 500;}
+.buton-portfolio-4 {
+  position: absolute;
+  top: 174px;
+  left: 862px;
+  font-weight: 500;}
+.buton-portfolio-5 {
+  position: absolute;
+  top: 174px;
+  left: 961px;
+  font-weight: 500;}
+/*#portfolio-content {}*/
+#portfolio-content > ul > li {
+  box-sizing: border-box;
+
+  position: absolute;
+  padding-bottom:110px;
+
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;}
+.portfolio-title {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 24px;
+  top: 302px;
+
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+
+  color: #212121;}
+.portfolio-tracker {
+  position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 24px;
+    top: 336px;
+  
+    line-height: 188%;
+    letter-spacing: 0.03em;
+  
+    color: #757575;}
+
+.portfolio-content-1 {
+  position: absolute;
+  left: 215px;
+  top: 262px;}
+.portfolio-content-2 {
+  position: absolute;
+  left: 615px;
+  top: 262px;}
+.portfolio-content-3 {
+  position: absolute;
+  left: 1015px;
+  top: 262px;}
+.portfolio-content-4 {
+  position: absolute;
+  left: 215px;
+  top: 696px;}
+.portfolio-content-5 {
+  position: absolute;
+  left: 615px;
+  top: 696px;}
+.portfolio-content-6 {
+  position: absolute;
+  left: 1015px;
+  top: 696px;}
+.portfolio-content-7 {
+  position: absolute;
+  left: 215px;
+  top: 1130px;} 
+.portfolio-content-8 {
+  position: absolute;
+  left: 615px;
+  top: 1130px;} 
+.portfolio-content-9 {
+  position: absolute;
+  left: 1015px;
+  top: 1130px;}
+
